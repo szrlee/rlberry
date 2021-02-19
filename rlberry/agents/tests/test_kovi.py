@@ -15,6 +15,7 @@ def pd_kernel(state1, action1, state2=None, action2=None, type='gaussian'):
         return
 
 
+# TODO review test when KOVI finished
 def test_kovi_agent():
     env = GridWorld(nrows=2, ncols=4, walls=(), success_probability=1.0)
     n_episodes = 50
